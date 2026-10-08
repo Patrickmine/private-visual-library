@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+/work/
+/outputs/
+/images/
+/references.json
+/taxonomy.json
+/generation-record.json
+/classification-record.json

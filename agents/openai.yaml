@@ -1,0 +1,4 @@
+interface:
+  display_name: "私人图像参考图库"
+  short_description: "把本地图片整理成可筛选的私人图库，确认品类后生成并打开，原图保持不变。"
+  default_prompt: "使用 $private-visual-library，把我的图片文件夹整理成私人图库，先让我确认品类，再生成并打开。"

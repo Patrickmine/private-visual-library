@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A private Amazon visual archive. Real references, curated for browsing.">
+  <meta name="color-scheme" content="light">
+  <title>Visual Reference Library</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F4F1EA'/%3E%3Cpath d='M6 7h9v18H6zm12 0h8v11h-8z' fill='%23151515'/%3E%3Cpath d='M18 22h8v3h-8z' fill='%23D7612C'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=20260917-language-toggle">
+  <script type="module" src="app.js?v=20260917-language-toggle"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-bar">
+    <h1 class="identity"><a id="home" href="./" aria-label="Visual Reference Library — return to all images">VISUAL REFERENCE LIBRARY</a></h1>
+    <nav class="filters" aria-label="Filter references">
+      <button data-filter="category" aria-expanded="false" aria-controls="filter-panel">CATEGORY</button>
+      <button data-filter="imageType" aria-expanded="false" aria-controls="filter-panel">IMAGE TYPE</button>
+      <button data-filter="composition" aria-expanded="false" aria-controls="filter-panel">COMPOSITION</button>
+      <button data-filter="background" aria-expanded="false" aria-controls="filter-panel">BACKGROUND</button>
+      <span class="language-separator" aria-hidden="true"></span>
+      <span class="language-control" aria-label="Interface language"><button type="button" data-language="en" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button type="button" data-language="zh" aria-pressed="false">中文</button></span>
+    </nav>
+    </div>
+    <section id="filter-panel" class="filter-panel" aria-label="Filter options" hidden></section>
+  </header>
+  <main id="library">
+    <div class="collection-bar">
+      <div id="conditions" class="conditions"></div>
+      <p id="count" class="reference-count" aria-live="polite">Loading images…</p>
+      <button id="sort" class="sort-control" type="button" aria-label="Sort images: newest first">NEWEST</button>
+      <button id="clear-all" class="text-action" hidden>CLEAR ALL</button>
+    </div>
+    <section id="gallery" class="gallery" aria-label="Reference gallery"><p class="load-status">Loading references…</p></section>
+    <div id="empty" class="empty-state" hidden><p id="empty-message">No images match this combination.</p><button id="empty-clear" class="text-action">CLEAR ALL</button></div>
+  </main>
+  <section id="focus" class="image-focus" aria-label="Image focus" tabindex="-1" hidden>
+    <div class="focus-top"><button id="close-focus" class="text-action">BACK TO LIBRARY <span aria-hidden="true">×</span></button></div>
+    <div class="focus-layout">
+      <div class="focus-stage">
+        <button id="previous" class="image-arrow" aria-label="Previous image" title="Previous image"><span aria-hidden="true">←</span></button>
+        <div class="focus-frame"><img id="focus-image" alt=""></div>
+        <button id="next" class="image-arrow" aria-label="Next image" title="Next image"><span aria-hidden="true">→</span></button>
+      </div>
+      <aside class="focus-info">
+        <div class="focus-identification"><p id="focus-number" class="focus-number"></p><p id="focus-progress" class="focus-progress"></p></div>
+        <dl id="focus-details"></dl>
+        <a id="original" class="text-action original-link" target="_blank" rel="noopener">VIEW ORIGINAL ↗</a>
+        <p id="resolution-note" class="resolution-note" hidden>LOW-RESOLUTION ORIGINAL<br>Shown without enlargement.</p>
+      </aside>
+    </div>
+  </section>
+  <noscript><p class="noscript">Please enable JavaScript to browse and filter this local archive.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,108 @@
+{
+  "imageType": [
+    {
+      "value": "PRODUCT SHOWCASE",
+      "zh": "产品展示",
+      "definition": "主要展示产品整体外观、组合或角度，包含白底产品图。"
+    },
+    {
+      "value": "FEATURE",
+      "zh": "卖点说明",
+      "definition": "主要解释功能、优势或效果。"
+    },
+    {
+      "value": "DETAIL",
+      "zh": "细节展示",
+      "definition": "主要展示材质、纹理、接口或局部结构。"
+    },
+    {
+      "value": "DIMENSION",
+      "zh": "尺寸规格",
+      "definition": "主要传达尺寸、容量、适配规格。"
+    },
+    {
+      "value": "COMPARISON",
+      "zh": "对比展示",
+      "definition": "明确对比两个或多个对象、状态或方案。"
+    },
+    {
+      "value": "LIFESTYLE",
+      "zh": "场景展示",
+      "definition": "重点展示生活中的使用情境与场景体验。"
+    },
+    {
+      "value": "HOW TO",
+      "zh": "使用与维护",
+      "definition": "主要说明安装、操作、清洗、保养的方法。"
+    },
+    {
+      "value": "PACKAGE & CONTENTS",
+      "zh": "包装与清单",
+      "definition": "主要展示包装、开箱内容、配件和数量。"
+    },
+    {
+      "value": "BRAND",
+      "zh": "品牌表达",
+      "definition": "品牌故事、理念、形象及品牌服务承诺；不是单个产品的具体卖点。"
+    }
+  ],
+  "composition": [
+    {
+      "value": "SINGLE FRAME",
+      "zh": "单一主画面",
+      "definition": "一个连续主画面，可带标题、文字或标注；主体可居中或偏置。"
+    },
+    {
+      "value": "LEFT–RIGHT",
+      "zh": "左右分区",
+      "definition": "左右形成明确、相对独立的内容区。"
+    },
+    {
+      "value": "TOP–BOTTOM",
+      "zh": "上下分区",
+      "definition": "上下形成明确、相对独立的内容区。"
+    },
+    {
+      "value": "MULTI-PANEL",
+      "zh": "多格布局",
+      "definition": "三个及以上独立内容区，采用规则分栏或网格。"
+    },
+    {
+      "value": "MAIN & INSET",
+      "zh": "主图＋局部窗",
+      "definition": "一张主画面，辅以局部放大框、小窗或补充图片。"
+    },
+    {
+      "value": "COLLAGE",
+      "zh": "自由拼贴",
+      "definition": "多个独立视觉元素自由叠放、交错，不采用规则分区。"
+    }
+  ],
+  "background": [
+    {
+      "value": "SOLID",
+      "zh": "纯色",
+      "definition": "连续单色底，包括白、黑、灰及其他颜色，可带自然投影。"
+    },
+    {
+      "value": "GRADIENT",
+      "zh": "渐变",
+      "definition": "背景主要由颜色渐变构成，没有明确场景。"
+    },
+    {
+      "value": "STAGED",
+      "zh": "布景",
+      "definition": "明显搭建的展示环境，如台座、幕布、几何道具。"
+    },
+    {
+      "value": "ENVIRONMENT",
+      "zh": "场景",
+      "definition": "卧室、厨房、户外等具有明确空间或使用环境的背景。"
+    },
+    {
+      "value": "GRAPHIC",
+      "zh": "图形",
+      "definition": "主要由纹理、图案、抽象图形或示意空间构成；文字和标注本身不算背景。"
+    }
+  ]
+}
